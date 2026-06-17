@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow</title>
+    <link rel="stylesheet" href="ToDo.css">
+</head>
+<body>
+
+    <main class="app-container">
+
+        <header class="app-header">
+            <h1 class="app-title">TaskFlow</h1>
+            <p class="app-subtitle">
+                Organize your day, one task at a time.
+            </p>
+        </header>
+
+        <section class="task-creator-card">
+
+            <div class="input-wrapper">
+                <input
+                    type="text"
+                    id="taskInput"
+                    placeholder="What needs to be done today?"
+                >
+            </div>
+
+            <button id="addTaskButton">
+                Add Task
+            </button>
+
+        </section>
+
+        <section class="task-list-section">
+
+            <div class="section-header">
+                <h2>Your Tasks</h2>
+            </div>
+
+            <ol id="taskList"></ol>
+
+        </section>
+
+    </main>
+
+    <script src="ToDo.js"></script>
+
+</body>
+</html>
